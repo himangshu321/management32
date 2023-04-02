@@ -1,0 +1,33 @@
+@media only screen and (max-width: 900px) {
+    .menubar {
+        float: none;
+        position: relative;
+        background: #777779;
+        width: 100%;
+        left: 0;
+        top: 80px;
+        padding: 30px 0px 150px 0px;
+        border-top: 1px solid #4a4848;
+        clip-path: circle(0% at 80% 0%);
+        transition: all .8s;
+    }
+    .menu li {
+        display: block;
+        margin: 5px;
+    }
+    .navbar{
+        display: block;
+    }
+    .mobile-menu {
+        clip-path: circle(200% at 100% 0%);
+    }
+    .menu li a:after{
+        display: none;
+    }
+    .mobile-menu{
+        text-align: center;
+    }
+    .active{
+        margin-right: 90px;
+    }
+}
